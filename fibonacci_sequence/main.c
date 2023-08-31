@@ -6,5 +6,5 @@ of the two previous numbers, starting with 0 and 1.*/
 
 int main (void)
 {
-    
+
 }
