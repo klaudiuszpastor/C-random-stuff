@@ -9,7 +9,7 @@
 int main(void){
     int size = 2;   
     int *buffer = malloc(sizeof(int)*size); 
-
+    /* */
     int input = 0;
     int num_data = 0;
     while (true){
