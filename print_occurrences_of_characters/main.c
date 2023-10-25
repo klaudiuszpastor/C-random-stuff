@@ -16,7 +16,7 @@ void print_occurrences(char *s){
     int lenght = strlen(s);
     char unique[lenght]; //keep track of how many unique characters found so far
     int counted = 0; //keep track of how many unique characters we've already counted
-
+    // char unique is array that store int lennght numbers of characters
     for (int i=0; i < lenght; i++){
         bool already_counted = false;
         for (int j =0; j <counted; j++)
@@ -30,7 +30,6 @@ void print_occurrences(char *s){
         int count =0;
         for (int j =0; j< lenght; j++)
             if (s[i] == s[j]) count++;
-
             printf("%c - %d\n",s[i],count);
             unique[counted] = s[i];
             counted++;
